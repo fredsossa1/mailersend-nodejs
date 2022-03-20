@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Create typescript type declaration files
-npx tsc
+#npx tsc
 git add dist
