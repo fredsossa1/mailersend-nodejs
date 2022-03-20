@@ -1,6 +1,6 @@
 export = Recipient;
 declare class Recipient {
-  constructor(email: string, name: string);
+  constructor(email: string, name?: string);
   email: string;
-  name: string;
+  name?: string;
 }
